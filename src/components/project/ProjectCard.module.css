@@ -1,0 +1,119 @@
+
+
+@import "../../vars.css";
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  width: 250px;
+  height: 200px;
+  box-shadow: 0 16px 14px 0 #04152d;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.1);
+  filter: blur(2px) brightness(0.7);
+}
+
+/* OVERLAY STYLES */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(87,108,188,0.9) 0%, rgba(15,37,73,0.95) 85%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  padding: 20px;
+  text-align: center;
+
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.links{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.link{
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 23px;
+  font-weight: 500;
+  background: var(--color-primary);
+  padding: 6px 16px;
+  border-radius: 20px;
+} 
+/* 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px; 
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 700;
+  border: 2px solid rgb(25, 55, 109);
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.links .link {
+  position: absolute;
+  background: rgb(25, 55, 109);
+  height: 100%;
+  width: 0;
+  border-radius: 30px;
+  color: var(--color-text);
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.links:hover .link {
+  width: 100%;
+}
+
+.links:hover {
+  border: none;
+} */

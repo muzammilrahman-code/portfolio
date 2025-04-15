@@ -1,0 +1,154 @@
+@import "../../vars.css";
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 70px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 5%;
+}
+
+.left p{
+    max-width: 550px;
+    font-size: 19px;
+    line-height: 30px;
+}
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 22px;
+}
+.contactDetail{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+
+}
+.contactDetail img{
+    width: 35px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.right label{
+    font-size: 22px;
+    font-weight: 500;
+}
+.right input{
+    border: none;
+    width: 600px;
+    color: #ffffff;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #484856;
+    font-size: 20px;
+}
+.right textarea{
+    width: 600px;
+    border: none;
+    border-radius: 4px;
+    background: #333339;
+    font-size: 20px;
+    padding: 25px;
+    color: #A0A0A0;
+}
+.contactSubmit{
+    border: none;
+    color: var(--color-text);
+    border-radius: 50px;
+    background:  #333339;
+    font-size: 22px;
+    padding: 14px 28px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contactSubmit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1130px){
+    .section{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .container{
+        align-items: start;
+    }
+    .title{
+        padding: 0;
+        font-size: 20px;
+        
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        gap: 10px;
+    }
+    .left p{
+        font-size: 18px;
+
+    }
+    
+   .contactDetails{
+    gap: 15px;
+   }
+   .contactDetail img{
+    font-size: 16px;
+
+   }
+}
+@media screen and (max-width: 680px){
+    .right input,
+    .right textarea{
+        width: 300px;
+        font-size: 18px;
+        padding: 15px;
+    }
+    .right{
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .left{
+        gap: 10px;
+        font-size: 14px;
+    }
+    .contactSubmit{
+        font-size: 20px;
+        padding: 12px 26px;
+        margin-top: 18px;
+        margin-bottom: 0;
+    }
+}

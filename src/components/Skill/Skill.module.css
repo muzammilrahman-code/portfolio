@@ -1,0 +1,67 @@
+@import "../../vars.css";
+
+.container{
+        padding: 40px;
+        color: var(--color-text);
+        margin-top: 70px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+           
+}
+.skill{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillImgContainer{
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    
+}
+.skillImgContainer img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+
+}
+.skillImgContainer:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* 👉 500px or less: show 1 skill per row */
+  @media (max-width: 400px) {
+    .content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

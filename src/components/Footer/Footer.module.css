@@ -1,0 +1,119 @@
+@import "../../vars.css";
+.footer{
+    color: var(--color-text);
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footerTop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footerTopLeft{
+    gap: 20px;
+}
+.footerTopLeft img{
+    width: 45px;
+    filter: brightness(0) invert(1);
+    margin-bottom: 5px;
+}
+.footerTopLeft p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footerTopRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+.emailInput{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background:  #333339;
+    padding: 15px;
+    border-radius: 80px;
+    width: 280px;
+}
+.emailInput img{
+    filter: brightness(0) invert(1);
+    width: 30px;
+    height: 20px;
+    padding-left: 10px;
+}
+.emailInput input{
+    border: none;
+    outline: none;
+    width: 180px;
+    background:  #333339;
+    color: var(--color-text);
+    font-size: 15px;
+}
+.subscribe{
+    background-color: #333339;
+    padding: 20px;
+    border-radius: 40px;
+}
+.footerBottom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerBottom p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.end p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 630px) {
+    .footerTop{
+        display: flex;
+        flex-direction: column;
+    }
+    .emailInput{
+        width: 250px;
+        padding: 13px;
+        gap: 10px;
+    }
+    .subscribe{
+        padding: 15px 18px;
+    }
+    .footer{
+        margin-top: 10px;
+    }
+    .footerTopLeft{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .footerTopLeft img{
+        width: 40px;
+    }
+    .footerBottom{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .end{
+        /* display: flex;
+        flex-direction: column; */
+        gap: 25px;
+    }
+}

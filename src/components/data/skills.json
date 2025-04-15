@@ -1,0 +1,26 @@
+[
+    {
+        "title": "HTML5",
+        "imageSrc": "/images/HTML5.png"
+    },
+    {
+        "title": "CSS3",
+        "imageSrc": "/images/CSS3.png"
+    },
+    {
+        "title": "JAVASCRIPT",
+        "imageSrc": "/images/JavaScript.png"
+    },
+    {
+        "title": "REACT",
+        "imageSrc": "/images/React.png"
+    },
+    {
+        "title": "BOOTSTRAP",
+        "imageSrc": "/images/Bootstrap.png"
+    },
+    {
+        "title": "TAILWIND CSS",
+        "imageSrc": "/images/Tailwind CSS.png"
+    }
+]

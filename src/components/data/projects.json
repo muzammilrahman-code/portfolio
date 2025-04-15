@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Weather App",
+      "imageSrc": "/images/weather.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "demo": "https://www.example.com"
+    },
+    {
+      "title": "Quiz App",
+      "imageSrc": "/images/QuizApp.jpg",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "demo": "https://www.example.com"
+    },
+    {
+      "title": "Tic Tac Toe",
+      "imageSrc": "/images/TicTacToe.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "demo": "https://www.example.com"
+    }
+   
+  ]
+
+
