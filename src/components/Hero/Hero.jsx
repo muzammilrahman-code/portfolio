@@ -36,7 +36,7 @@ export const Hero = () => {
         <p data-aos="fade-up" className={styles.description}>
         I'm a Front-End Developer specializing in building responsive and dynamic web applications using React.js and Tailwind CSS. I focus on creating clean, efficient, and scalable user interfaces with a strong emphasis on performance and user experience.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:muzammilsiddiqui079@gmail.com" className={styles.contactBtn}>
         <div className={styles.animate}></div> Contact Me
         </a>
       </div>
