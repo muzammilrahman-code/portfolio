@@ -1,6 +1,6 @@
 import React from 'react'
 import skills from "../data/skills.json"
-import style from "./skill.module.css"
+import style from "./Skill.module.css"
 import { motion } from "framer-motion";
 
 
