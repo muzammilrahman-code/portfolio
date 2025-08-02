@@ -1,21 +1,33 @@
 [
     {
+      "title": "Admin Dashboard",
+      "imageSrc": "/images/dashboard.png",
+      "description": "It's a admin dashboard app. It provides a user-friendly interface for managing various administrative tasks.",
+      "demo": "https://admin-dashboard-muzammil.vercel.app/"
+    },
+    {
+      "title": "Ecommerce Website",
+      "imageSrc": "/images/ecommerce.webp",
+      "description": "This project is a Ecommerce Front End App. It provides a platform for buying and selling products online.",
+      "demo": "https://khareedo-ecommerce-website.netlify.app/"
+    },
+    {
+      "title": "Gemini AI Clone",
+      "imageSrc": "/images/gemini.png",
+      "description": "This Project is Gemini AI Clone. It provides a chat interface similar to Gemini AI.",
+      "demo": "https://gemini-chat-muzammil.vercel.app/"
+    },
+     {
       "title": "Weather App",
-      "imageSrc": "/images/weather.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "demo": "https://www.example.com"
+      "imageSrc": "/images/weather.webp",
+      "description": "This project is a weather application. It provides real-time weather updates for any location worldwide.",
+      "demo": "https://muzammilrahmanweatherappreact.netlify.app/"
     },
-    {
-      "title": "Quiz App",
-      "imageSrc": "/images/QuizApp.jpg",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "demo": "https://www.example.com"
-    },
-    {
-      "title": "Tic Tac Toe",
-      "imageSrc": "/images/TicTacToe.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "demo": "https://www.example.com"
+     {
+      "title": "Expense Tracker",
+      "imageSrc": "/images/expense.webp",
+      "description": "Its a Expense Tracker Application. It helps users manage their expenses and track their financial activities.",
+      "demo": "https://expense-tracker-muzammil.vercel.app/"
     }
    
   ]

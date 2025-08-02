@@ -22,11 +22,8 @@ const About = () => {
                 <li className={style.aboutItem}>
                     <img src={logo} alt="" className={style.icon}/>
             <div className={style.aboutItemText}>
-                <h3>This is about My Self</h3>
-                <p>I'm a Front End Developer with a 1 year of experience in it. i am wroking on a 
-                 technology which is react js and tailwind cssI'm a Front End Developer
-                 with a 1 year of experience in it. i am wroking on a 
-                 technology which is react js and tailwind css</p>
+                <h3>This is about Myself</h3>
+                <p>Ambitious Computer Science student passionate about leveraging technology to drive innovation. With a solid foundation in computer science, I'm eager to apply my skills to real-world challenges and continue learning. Driven by a curiosity for the latest tech advancements, I'm excited to embark on a rewarding career in tech</p>
             </div>
             </li>
             </ul>
