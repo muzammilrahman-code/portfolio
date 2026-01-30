@@ -22,5 +22,17 @@
     {
         "title": "TAILWIND CSS",
         "imageSrc": "/images/Tailwind CSS.png"
+    },
+    {
+        "title": "NODE JS",
+        "imageSrc": "/images/nodejs.png"
+    },
+    {
+        "title": "EXPRESS JS",
+        "imageSrc": "/images/express.png"
+    },
+    {
+        "title": "MONGODB",
+        "imageSrc": "/images/mongodb.png"
     }
 ]

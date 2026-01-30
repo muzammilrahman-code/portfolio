@@ -15,7 +15,6 @@ const Navbar = () => {
 >
 
 
-
 <nav className={style.navbar}>
 <a href="/" className={style.title}>Portfolio</a>
 <div className={style.menu}>

@@ -17,7 +17,7 @@ const Footer = () => {
       <div className={style.footerTop}>
         <div className={style.footerTopLeft}>
           <img src={code_Icon} alt="" />
-          <p>I am a Front End Developer</p>
+          <p>I am a Full Stack Developer</p>
         </div>
         <div className={style.footerTopRight}>
           <div className={style.emailInput}>

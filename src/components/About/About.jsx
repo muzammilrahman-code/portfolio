@@ -21,13 +21,15 @@ const About = () => {
             <ul className={style.aboutItems}>
                 <li className={style.aboutItem}>
                     <img src={logo} alt="" className={style.icon}/>
-            <div className={style.aboutItemText}>
+                <div className={style.aboutItemText}>
                 <h3>This is about Myself</h3>
-                <p>Ambitious Computer Science student passionate about leveraging technology to drive innovation. With a solid foundation in computer science, I'm eager to apply my skills to real-world challenges and continue learning. Driven by a curiosity for the latest tech advancements, I'm excited to embark on a rewarding career in tech</p>
+                <p>
+                    As a Computer Science graduate and professional MERN Stack Developer, I thrive on turning complex challenges into elegant code. I specialize in the full development lifecycle—from architecting robust, secure databases in MongoDB to designing lightning-fast, modern interfaces with Tailwind CSS. Having transitioned from academic theory to professional engineering, I am committed to writing clean, maintainable code and staying at the forefront of tech innovation to solve real-world problems at scale
+                </p>
             </div>
             </li>
             </ul>
-            </div>
+        </div>
 
             <div className={style.btnWrap}>
                 <button className={style.readMeBtn}><span></span>Read More</button>

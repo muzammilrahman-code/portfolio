@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
 import Image from "../../assets/3d_character.png";
 import { TypeAnimation } from 'react-type-animation';
@@ -34,7 +33,7 @@ export const Hero = () => {
     />
 
         <p data-aos="fade-up" className={styles.description}>
-        I'm a Front-End Developer specializing in building responsive and dynamic web applications using React.js and Tailwind CSS. I focus on creating clean, efficient, and scalable user interfaces with a strong emphasis on performance and user experience.
+        I'm a Full Stack MERN Developer dedicated to building robust, end-to-end web applications. By leveraging MongoDB, Express.js, React, and Node.js, I create scalable backends and dynamic, responsive frontends with React. I focus on writing clean, efficient code that prioritizes high performance and seamless user experiences.
         </p>
         <a href="mailto:muzammilsiddiqui079@gmail.com" className={styles.contactBtn}>
         <div className={styles.animate}></div> Contact Me

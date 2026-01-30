@@ -1,4 +1,10 @@
 [
+  {
+      "title": "Prism AI Saas App",
+      "imageSrc": "/images/prismai.png",
+      "description": "It’s an all-in-one AI SaaS platform. It provides a versatile, AI-powered suite of tools for your various tasks.",
+      "demo": "https://prism-ai-saasapp.vercel.app/"
+    },
     {
       "title": "Admin Dashboard",
       "imageSrc": "/images/dashboard.png",
