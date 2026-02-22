@@ -6,6 +6,12 @@
       "demo": "https://prism-ai-saasapp.vercel.app/"
     },
     {
+      "title": "AI Mock Interview Prep",
+      "imageSrc": "/images/Interview-prep.png",
+      "description": "An AI-powered app that simulates real-world scenarios and helps users sharpen their interview skills.",
+      "demo": "https://interview-genie-ten.vercel.app/"
+    },
+    {
       "title": "Admin Dashboard",
       "imageSrc": "/images/dashboard.png",
       "description": "It's a admin dashboard app. It provides a user-friendly interface for managing various administrative tasks.",
