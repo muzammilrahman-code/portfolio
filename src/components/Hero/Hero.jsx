@@ -28,13 +28,14 @@ export const Hero = () => {
       wrapper="h1"
       speed={2}
       className={styles.animatedText}
-      style={{ fontSize: '60px', display: 'inline-block' }}
+      style={{ display: 'inline-block' }}
       repeat={Infinity}
     />
 
         <p data-aos="fade-up" className={styles.description}>
         I'm a Full Stack MERN Developer dedicated to building robust, end-to-end web applications. By leveraging MongoDB, Express.js, React, and Node.js, I create scalable backends and dynamic, responsive frontends with React. I focus on writing clean, efficient code that prioritizes high performance and seamless user experiences.
         </p>
+        
         <a href="mailto:muzammilsiddiqui079@gmail.com" className={styles.contactBtn}>
         <div className={styles.animate}></div> Contact Me
         </a>

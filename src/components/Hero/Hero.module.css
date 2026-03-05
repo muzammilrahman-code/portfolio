@@ -6,10 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin: 49px auto 0;
+  width: min(1200px, 90%);
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
   color: var(--color-text);
 }
 
@@ -28,6 +27,12 @@
     font-family: var(--font-roboto);
     color: white; 
   }
+
+.animatedText {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: var(--font-roboto);
+}
   
   
 .description {
@@ -135,6 +140,55 @@
   }
   .heroImg {
     width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .animatedText {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .contactBtn {
+    width: 165px;
+    padding: 11px 0;
+    margin: 10px 6px;
+    font-size: 15px;
+  }
+  .container{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 400px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .animatedText {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .contactBtn {
+    width: 150px;
+    padding: 10px 0;
+    margin: 8px 4px;
+    font-size: 13px;
+  }
+  .container{
+    margin-top: -30px;
   }
 }
 

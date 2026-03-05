@@ -51,6 +51,10 @@
     transform: scale(1.05);
 }
 
+.skill p {
+  font-size: 18px;
+}
+
 
 @media (max-width: 600px) {
     .content {
@@ -58,10 +62,33 @@
     }
   }
   
-  /* 👉 500px or less: show 1 skill per row */
-  @media (max-width: 400px) {
+  @media (max-width: 379px) {
     .content {
       grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 28px;
+    }
+
+    .skill p {
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (min-width: 380px) and (max-width: 400px) {
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .title {
+      font-size: 24px;
+    }
+
+    .skill p {
+      font-size: 14px;
     }
   }
   

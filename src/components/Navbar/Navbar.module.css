@@ -6,8 +6,9 @@
     align-items: center;
     justify-content: space-between;
     z-index: 2;
-    padding-top: 61px;
-    margin: 0 10%;
+    padding-top: 10px;
+    width: min(1200px, 90%);
+    margin: 0 auto;
 }
    
 
@@ -69,5 +70,35 @@
     .menuOpen{
         display: flex;
         z-index: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .menuBtn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menuItem a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 400px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .menuBtn {
+        width: 26px;
+        height: 26px;
+    }
+
+    .menuItem a {
+        font-size: 17px;
     }
 }

@@ -14,7 +14,6 @@ const Navbar = () => {
     transition={{ duration: 0.5 }}
 >
 
-
 <nav className={style.navbar}>
 <a href="/" className={style.title}>Portfolio</a>
 <div className={style.menu}>

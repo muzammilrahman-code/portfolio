@@ -76,3 +76,47 @@
   padding: 6px 16px;
   border-radius: 20px;
 } 
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: min(100%, 280px);
+    height: 190px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .link {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: min(92vw, 320px);
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 400px) {
+  .card {
+    width: min(92vw, 300px);
+    height: 180px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 17px;
+  }
+}
